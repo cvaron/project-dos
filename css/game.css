@@ -1,0 +1,20 @@
+.background    { background: rgb(136, 227, 251);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(247, 109, 96); }
+.wall          { background: rgb(149, 244, 66);   }
+
+.actor  { position: absolute;  }
+.player { background: rgb(153, 66, 29); }
+.coin {background: rgb(196,186,1);}
+.shroom  { background: rgb(246, 247, 207); }
+.porkie {background: rgb(247, 197, 96);}
+.portal {background: rgb(208 ,115 ,226 );}
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
